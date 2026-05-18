@@ -13,20 +13,20 @@ Automatizacion de pruebas basicas para el entorno de https://www.automationexerc
 
 ## Instalación
 
-.venv\Scripts\activate.bat
-.venv\Scripts\python -m pip install --upgrade pip
-.venv\Scripts\pip install -e .
-.venv\Scripts\python -m playwright install chromium
+- .venv\Scripts\activate.bat
+- .venv\Scripts\python -m pip install --upgrade pip
+- .venv\Scripts\pip install -e .
+- .venv\Scripts\python -m playwright install chromium
 
 
 ## Ejecución
 
 ### Para ejecucion total de todas las pruebas
 
-pytest 
+- pytest 
 
 ### Para ejecucion de pruebas individual
 
-pytest tests/test_contacto.py
-pytest tests/test_registro.py
-pytest tests/test_suscripcion.py
+- pytest tests/test_contacto.py
+- pytest tests/test_registro.py
+- pytest tests/test_suscripcion.py
